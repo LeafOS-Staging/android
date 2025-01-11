@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-15.0.0_r36"
            remote="aosp"
@@ -1064,4 +1064,10 @@
   </project>
   <!-- END open-source projects -->
 
+
+  <include name="snippets/leaf.xml" />
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/lineage-caf.xml" />
+  <include name="snippets/graphene.xml" />
+  <include name="snippets/lineage-kotlin.xml" />
 </manifest>
