@@ -6,6 +6,11 @@
           revision="refs/heads/leaf-4.1"
           review="review.leafos.org" />
 
+  <remote name="leafos-staging"
+          fetch="https://github.com"
+          revision="leaf-4.1"
+  />
+
   <!-- LeafOS additions -->
   <project path="android" name="LeafOS-Project/android" remote="leaf" />
   <project path="device/leaf/sepolicy" name="LeafOS-Project/android_device_leaf_sepolicy" remote="leaf" />
@@ -51,6 +56,6 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="LeafOS-Project/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="leaf" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="LeafOS-Project/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio" remote="leaf" />
+  <project path="packages/apps/Launcher3" name="LeafOS-Staging/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio" remote="leafos-staging" revision="leaf-4.1" />
 
 </manifest>
