@@ -17,7 +17,7 @@
   <project path="leaf/scripts" name="LeafOS-Project/leaf_scripts" remote="leaf" revision="refs/heads/master" />
   <project path="packages/apps/LeafBackgrounds" name="LeafOS-Project/android_packages_apps_LeafBackgrounds" remote="leaf" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-15.0.0_r0.49" />
-  <project path="vendor/leaf" name="LeafOS-Project/android_vendor_leaf" remote="leaf">
+  <project path="vendor/leaf" name="LeafOS-Staging/android_vendor_leaf" remote="leaf-staging">
     <linkfile src="config" dest="vendor/lineage/config" />
   </project>
   <project path="vendor/leaf-apps/ThemePickerLeaf" name="LeafOS-Project/android_vendor_leaf-apps_ThemePickerLeaf" remote="leaf" />
