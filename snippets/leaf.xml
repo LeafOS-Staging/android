@@ -24,7 +24,7 @@
 
   <!-- LeafOS forked repos -->
   <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="LeafOS-Project/android_bootable_recovery" groups="pdk,lineage" remote="leaf" />
+  <project path="bootable/recovery" name="LeafOS-Staging/android_bootable_recovery" groups="pdk,lineage" remote="leaf-staging" />
   <remove-project name="platform/build" />
   <project path="build/make" name="LeafOS-Project/android_build" groups="pdk,sysui-studio" remote="leaf">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
