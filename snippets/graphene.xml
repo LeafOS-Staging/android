@@ -5,6 +5,6 @@
            fetch="https://gitlab.com/grapheneos/"
            revision="refs/heads/15-qpr2" />
 
-  <project path="external/vanadium"  name="GrapheneOS/platform_external_vanadium" remote="grapheneos-gitlab" />
+  <project path="external/vanadium" name="platform_external_vanadium.git" remote="grapheneos-gitlab" clone-depth="1" />
 
 </manifest>
