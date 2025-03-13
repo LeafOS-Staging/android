@@ -6,6 +6,11 @@
           revision="refs/heads/leaf-4.1"
           review="review.leafos.org" />
 
+  <remote name="leaf-staging"
+          fetch="https://github.com/"
+          revision="refs/heads/leaf-4.2"/>
+
+
   <!-- LeafOS additions -->
   <project path="android" name="LeafOS-Project/android" remote="leaf" />
   <project path="device/leaf/sepolicy" name="LeafOS-Project/android_device_leaf_sepolicy" remote="leaf" />
