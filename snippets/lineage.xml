@@ -31,6 +31,8 @@
   <remove-project path="packages/inputmethods/LatinIME"/>
   <project path="packages/inputmethods/LatinIME"  name="LineageOS/android_packages_inputmethods_LatinIME" remote="lineage" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" />
+  <remove-project path="packages/apps/ThemePicker"/>
+  <project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" remote="lineage"/>
 
   <!-- Extraction Tools -->
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineage" />
