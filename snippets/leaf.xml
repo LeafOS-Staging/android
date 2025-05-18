@@ -54,7 +54,7 @@
   <remove-project name="platform/external/mksh" />
   <project path="external/mksh" name="LeafOS-Project/android_external_mksh" groups="pdk,lineage" remote="leaf" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="LeafOS-Staging/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="leaf-staging" />
+  <project path="frameworks/base" name="LeafOS-Experimental/android_frameworks_base_qpr2" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="leaf-4.2-aosp-r36" remote="leaf-staging" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="LeafOS-experimental/android_frameworks_native" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="leaf-staging" />
   <remove-project name="platform/hardware/interfaces" />
@@ -68,5 +68,5 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="LeafOS-experimental/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="leaf-staging" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="calyxos/platform_packages_apps_Launcher3" groups="pdk-fs,sysui-studio" remote="calyxos" />
+  <project path="packages/apps/Launcher3" name="LeafOS-Experimental/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio" revision="leaf-4.2-aosp-r36" remote="leaf-staging" />
 </manifest>
